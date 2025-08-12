@@ -1,0 +1,68 @@
+<<<< filenames
+path = .
+filename = example
+OUTPUT psf rst pdb dcd
+path_pdb = .
+path_ini = .
+path_natinfo = .
+path_para = /public/home/jhpeng/tools/CG/cafemol3.2/para
+path_aicg = /public/home/jhpeng/tools/CG/cafemol3.2/aicg
+>>>>
+
+<<<< job_cntl
+i_run_mode = 2
+i_simulate_type = 1
+i_initial_state = 6
+>>>>
+
+<<<< unit_and_state
+i_seq_read_style = 4
+i_go_native_read_style = 2
+1-3 protein "./em2cg.pdb"
+>>>>
+
+<<<< initial_struct
+1-3  "./em2cg.pdb"
+>>>>
+
+<<<< native_info_sim1
+NINFO(all/all) em1.ninfo
+>>>>
+
+<<<< energy_function
+LOCAL(1-3) L_AICG2_PLUS
+NLOCAL(1-3/1-3) AICG2_PLUS EXV ELE
+i_use_atom_protein = 0
+i_coef_from_ninfo = 1
+i_output_energy_style = 1
+>>>>
+
+<<<< md_information
+n_step_sim = 1
+n_tstep(1) = 100000000
+tstep_size = 0.4
+n_step_save = 5000
+n_step_rst = 5000
+n_step_neighbor = 100
+i_com_zeroing = 0
+i_no_trans_rot = 0
+tempk = 300.0
+n_seed = 1
+i_in_box = 0
+>>>>
+
+<<<< flexible_local
+k_dih = 1.00000
+k_ang = 1.00000
+>>>>
+<<<< aicg
+i_aicg = 1
+>>>>
+
+<<<< electrostatic
+cutoff_ele = 20.0
+ionic_strength = 0.15
+diele_water = 78.0
+i_diele = 1
+>>>>
+
