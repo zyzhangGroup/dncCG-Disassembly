@@ -1,12 +1,12 @@
 # dncCG-Disassembly
-This toolkit provides an automated workflow for studying protein thermal dissociation using CafeMol molecular dynamics. The system combines coarse-grained simulations with all-atom contact analysis to accurately determine subunit dissociation orders.
+This toolkit provides an automated workflow for studying protein thermal disassembly using CafeMol molecular dynamics. The system combines coarse-grained simulations with all-atom contact analysis to accurately determine subunit disassembly orders.
 
 ## Key features:
 - Iterative temperature sampling algorithm
 - Hybrid coarse-grained/all-atom analysis
 - Parallel execution across multiple nodes
-- Automatic dissociation temperature detection
-- Network visualization of dissociation patterns
+- Automatic disassembly temperature detection
+- Network visualization of disassembly patterns
 
 ## Citation
 If using this tool in research, please cite:
