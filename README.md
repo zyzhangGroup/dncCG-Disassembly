@@ -11,12 +11,5 @@ This toolkit provides an automated workflow for studying protein thermal disasse
 ## Citation
 If using this tool in research, please cite:
 ```
-@software{dncCG-Disassembly,
-  author = {Zixuan ZHang & Zhiyong Zhang},
-  title = {Predicting disassembly orders of protein complexes by coarse-grained simulations using dynamic native contacts},
-  year = {2025},
-  publisher = {GitHub},
-  journal = {GitHub repository},
-  howpublished = {\url{https://github.com/yourusername/protein-contact-analysis}}
-}
+Zhang Z, Chen G, Zhang Z. Disassembly orders of protein complexes by coarse-grained simulations with dynamic native contacts. Biophys J. 2026 Jan 6;125(1):54-63. doi: 10.1016/j.bpj.2025.11.001. Epub 2025 Nov 5. PMID: 41199549.
 ```
